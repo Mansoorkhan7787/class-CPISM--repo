@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE company [
+<!ELEMENT company (department)>
+<!ELEMENT department (name,location,employes)>
+<!ELEMENT employes (name,age,contact)>
+<!ELEMENT contact (email,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST department id CDATA #IMPLIED>
+<!ATTLIST employes id CDATA #IMPLIED>
+
+]>
+
+
+
+<company>
+
+    <department id="101">
+        <name>xyz company</name>
+        <location> shahrah e faisal</location>
+
+        <employes id="data">
+            <name>mansoor</name>
+            <age>22</age>
+
+            <contact>
+                <email>kmr967474@gmail.com</email>
+                <phone> 03473371276</phone>
+            </contact>
+
+        </employes>
+
+    </department>
+
+</company>
