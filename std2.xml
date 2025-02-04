@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE company SYSTEM "std2.dtd">
+
+<company>
+
+    <department id="101">
+        <name>xyz company</name>
+        <location> shahrah e faisal</location>
+
+        <employes id="data">
+            <name>mansoor</name>
+            <age>22</age>
+
+            <contact>
+                <email>kmr967474@gmail.com</email>
+                <phone> 03473371276</phone>
+            </contact>
+
+        </employes>
+
+    </department>
+
+</company>
